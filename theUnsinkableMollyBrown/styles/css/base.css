@@ -1,23 +1,14 @@
-@import 'main';
 @import url();
-
 @font-face {
   font-family: serif;
-  src: url('https://fonts.googleapis.com/css?family=Playfair+Display');
-  src: url('fonts\Elegante-Regular.ttf');
-}
-
+  src: url("https://fonts.googleapis.com/css?family=Playfair+Display");
+  src: url("fontslegante-Regular.ttf"); }
 html {
   margin: 0 auto;
   font-size: 16px;
   background-image: url(paper.jpg) no-repeat center center fixed;
   background-size: cover;
-  background-color: white;
-}
-
-body {
-
-}
+  background-color: white; }
 
 header {
   margin: 0 auto;
@@ -26,53 +17,44 @@ header {
   border-right: transparent;
   border-left: transparent;
   width: 100%;
-  font-size: 1.5rem;
-}
+  font-size: 1.5rem; }
 
 .navbar-nav a {
   font-style: Elegante-Regular;
-  color: #963921;
-}
+  color: #963921; }
 
 .Banner {
   padding-top: 1rem;
-  border-bottom: thick solid #5c5552;
-}
+  border-bottom: thick solid #5c5552; }
 
 .molly {
-  padding: 1rem;
-}
+  padding: 1rem; }
 
 .hand {
-  float: right;
-}
+  float: right; }
 
 .social-media a {
-  color: white;
-}
+  color: white; }
 
 h1 {
   font-size: 3.2rem;
   text-transform: uppercase;
-  font-family: Elegante-Regular;
-}
+  font-family: Elegante-Regular; }
 
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 nav li {
   display: inline;
-  padding: 5rem;
-}
+  padding: 5rem; }
 
 p {
-  font-family: 'Playfair Display', serif;
-}
+  font-family: 'Playfair Display', serif; }
 
 footer {
   background-color: #8c2c33;
-  color: white;
-}
+  color: white; }
+
+/*# sourceMappingURL=base.css.map */
